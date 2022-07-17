@@ -1,0 +1,145 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: "Nunito,sans-serif";
+}
+.menu-bar{
+    background-image: linear-gradient(-90deg,#FFA500,#FF6363);
+}
+.nav-link{
+    font-size: 16px;
+    margin: 3px;
+    color:#fff!important;
+    font-weight: 500;
+}
+.navbar-nav{
+    text-align: right;
+    margin-right: 20px;
+
+}
+.menu-bar  .navbar-toggler{
+    padding-right: 20px;
+    outline: none!important;
+    border: none!important;
+}
+.navbar  .fa{
+    color: #fff!important;
+    font-size: 26px;
+}
+.nav-link:hover {
+    font-weight: 600;
+    border-bottom:1px solid #fff;
+}
+.intro{
+    display: flex;
+    color: white;
+    height: 80vh;
+    background: url(https://cartzilla.createx.studio/img/home/hero-slider/03.jpg);
+    background-size: cover;
+}
+
+.typing{
+    margin-left: 10px;
+    position: relative;
+}
+
+.typing::after{
+    content: "";
+    position:absolute;
+    width: 1px;
+    height: 5%;
+    border-right: 2px solid white;
+    animation: blink 0.5s infinite ease;
+}
+
+@keyframes blink {
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+.padding{
+    border: 1px solid red;
+    padding: 10px;
+}
+.box{
+    background-color: #fff;
+    position: relative;
+    height: 250px;
+    width: 60%;
+    border-radius: 10px;
+    margin-left: 80px;
+    bottom: 80px;
+    
+}
+.img1{
+    height: 250px ;
+}
+.pag{
+    text-indent: 3cm;
+}
+.img2{
+    height:250px ;
+}
+.img3{
+    height: 250px;
+}
+.intro1{
+    display: flex;
+    color: white;
+    height: 80vh;
+    background: url(https://www.businessmagazine.org/wp-content/uploads/2021/12/Shopping.jpg);
+    background-size: cover;
+}
+
+.typing1{
+    margin-left: 10px;
+    position: relative;
+}
+
+.typing1::after{
+    content: "";
+    position:absolute;
+    width: 1px;
+    height: 10%;
+    border-right: 2px solid white;
+    animation: blink 0.5s infinite ease;
+}
+
+@keyframes blink {
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+.intro2{
+    display: flex;
+    color: white;
+    height: 80vh;
+    background: url(https://img.freepik.com/free-photo/studio-shot-pretty-black-woman-with-white-shopping-bag-standing-yellow-background-trendy-spring-fashionable-look_273443-10.jpg?w=2000);
+    background-size: cover;
+}
+
+.typing2{
+    margin-left: 10px;
+    position: relative;
+}
+
+.typing2::after{
+    content: "";
+    position:absolute;
+    width: 1px;
+    height: 10%;
+    border-right: 2px solid white;
+    animation: blink 0.5s infinite ease;
+}
+.col-md-4 {
+    background: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRxJp1PNGw8M2IMC4uG7JxVUvrQcM3FMcpTtg&usqp=CAU);
+}
+.d-sm-flex{
+    background: url(data:image/jpeg;base64,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);
+}
